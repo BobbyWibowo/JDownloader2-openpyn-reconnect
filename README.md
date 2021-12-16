@@ -32,6 +32,8 @@ This also means that you need to choose a country that have at least 2 servers.
 
 ## Installation
 
+In your JDownloader2, do all of the following (adapt if required):
+
 Settings > Reconnect > General Reconnect Options > Tick **Auto Reconnect Enabled**
 
 Settings > Reconnect > Reconnect Method > Pick **External Tool Reconnect**
@@ -39,3 +41,9 @@ Settings > Reconnect > Reconnect Method > Pick **External Tool Reconnect**
 Settings > Reconnect > Reconnect Method > Command > Fill in `/path/to/run-logged.sh` or `/path/to/run-silent.sh`
 
 Settings > Advanced Settings > Search for **Reconnect: Seconds Before First IP Check** > Fill in `15` or more. The script needs some time to fetch servers list and reconnecting. You can try to run `sudo ./jd2opreconnect.sh` directly in your terminal and see how long it takes for your system to reconnect in average.
+
+Settings > Plugins > `mega.co.nz` > **Set preferred limit mode** > Pick **Global: Wait or get new IP** (its default value will not trigger JDownloader2's Auto-Reconnect feature).
+
+Settings > Plugins > `mega.co.nz` > **Max. wait time on limit reached** > Set `25` (the plugin doesn't let you go any lower).
+
+You may have to find similar options as the above in other file hosts' plugins.
