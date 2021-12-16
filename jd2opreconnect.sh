@@ -127,6 +127,9 @@ if [[ ${SUCCESS} -eq 0 ]]; then
             echo_and_sleep ${SLEEP_AFTER_RECONNECTING}
         fi
     done
+
+    err "Failed to restart service, exiting..."
+    exit 1
 else
     err "Failed to rotate server, exiting..."
     exit 1
