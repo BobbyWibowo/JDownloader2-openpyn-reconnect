@@ -2,7 +2,8 @@
 
 ## BASIC CONFIGURATIONS
 COUNTRY=sg
-SERVICE=openpyn.service
+OPENPYN_SERVICE=openpyn.service
+OPENPYN_BINARY=openpyn
 SLEEP_AFTER_RECONNECTING=5s
 SLEEP_RETRY=5
 
@@ -33,7 +34,7 @@ function err {
 }
 
 function pass_service_status_to_var {
-    eval "${1}=\"$(systemctl show ${SERVICE} --no-page)\""
+    eval "${1}=\"$(systemctl show ${OPENPYN_SERVICE} --no-page)\""
 }
 
 function parse_is_service_active {
@@ -60,7 +61,7 @@ else
     info "Country set to ${S_RED}${S_BOLD}${COUNTRY^^}${S_RESET}, fetching servers list..."
     SAVEIFS=$IFS
     IFS=$'\n'
-    SERVERS=($(openpyn -l ${COUNTRY} | sed -E -n "s/^server = ([a-zA-Z0-9]+).*/\1/ip"))
+    SERVERS=($(${OPENPYN_BINARY} -l ${COUNTRY} | sed -E -n "s/^server = ([a-zA-Z0-9]+).*/\1/ip"))
     IFS=$SAVEIFS
 
     SERVERS_STRING=$(printf ", %s" "${SERVERS[@]}")
@@ -78,7 +79,7 @@ pass_service_status_to_var SERVICE_STATUS
 NEXT_SERVER_INDEX=0
 
 if parse_is_service_active "${SERVICE_STATUS}"; then
-    info "openpyn service is already running..."
+    info "${OPENPYN_SERVICE} is already running..."
 
     LAST_SERVER=$(printf '%s' "${SERVICE_STATUS}" | sed -E -n "s/^ExecStart=.*--server ([a-zA-Z0-9]+).*$/\1/p")
     if [[ -n "$LAST_SERVER" ]]; then
@@ -106,10 +107,10 @@ if parse_is_service_active "${SERVICE_STATUS}"; then
         warn "Currently connected server was not explicitly configured, continuing with index #0 ${S_BOLD}${S_GREEN}${SERVERS[0]}${S_RESET}..."
     fi
 else
-    warn "openpyn service is not running, continuing with index #0 ${S_BOLD}${S_GREEN}${SERVERS[0]}${S_RESET}..."
+    warn "${OPENPYN_SERVICE} is not running, continuing with index #0 ${S_BOLD}${S_GREEN}${SERVERS[0]}${S_RESET}..."
 fi
 
-openpyn --daemon --server ${SERVERS[$NEXT_SERVER_INDEX]} 2>&1
+${OPENPYN_BINARY} --daemon --server ${SERVERS[$NEXT_SERVER_INDEX]} 2>&1
 
 SUCCESS=$?
 if [[ ${SUCCESS} -eq 0 ]]; then
