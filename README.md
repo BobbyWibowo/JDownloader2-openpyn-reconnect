@@ -37,3 +37,5 @@ Settings > Reconnect > General Reconnect Options > Tick **Auto Reconnect Enabled
 Settings > Reconnect > Reconnect Method > Pick **External Tool Reconnect**
 
 Settings > Reconnect > Reconnect Method > Command > Fill in `/path/to/run-logged.sh` or `/path/to/run-silent.sh`
+
+Settings > Advanced Settings > Search for **Reconnect: Seconds Before First IP Check** > Fill in `15` or more. The script needs some time to fetch servers list and reconnecting. You can try to run `sudo ./jd2opreconnect.sh` directly in your terminal and see how long it takes for your system to reconnect in average.
