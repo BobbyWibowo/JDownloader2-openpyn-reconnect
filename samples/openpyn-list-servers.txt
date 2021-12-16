@@ -1,0 +1,109 @@
+The NordVPN Servers in SG Are:
+
+Server = sg455 , Load = 15 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg456 , Load = 16 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg457 , Load = 19 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg458 , Load = 20 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg459 , Load = 18 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg460 , Load = 22 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg461 , Load = 26 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg462 , Load = 25 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg463 , Load = 16 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg464 , Load = 39 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg465 , Load = 22 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg466 , Load = 17 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg472 , Load = 26 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg473 , Load = 21 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg474 , Load = 25 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg475 , Load = 17 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg476 , Load = 26 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg477 , Load = 21 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg478 , Load = 21 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg479 , Load = 22 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg480 , Load = 16 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg481 , Load = 19 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg482 , Load = 16 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg483 , Load = 18 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg485 , Load = 32 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg486 , Load = 27 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg487 , Load = 29 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg489 , Load = 32 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg490 , Load = 26 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg491 , Load = 19 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg492 , Load = 26 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg494 , Load = 15 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg493 , Load = 18 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg495 , Load = 27 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg496 , Load = 26 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg497 , Load = 43 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg498 , Load = 36 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg499 , Load = 15 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg500 , Load = 14 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg501 , Load = 23 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg504 , Load = 46 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg505 , Load = 28 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg507 , Load = 21 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg508 , Load = 17 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg510 , Load = 33 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg511 , Load = 14 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg512 , Load = 18 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg513 , Load = 17 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg514 , Load = 23 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg515 , Load = 27 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+Server = sg516 , Load = 26 , Country = Singapore , Features [{'name': 'Standard VPN servers'}, {'name': 'P2P'}]
+
+The available Locations in country SG are :
+['City Hall', 'Singapore']
+
+The following servers have not been listed on the Nord's site yet, they usually are the fastest or dead.
+{'sg484'}
