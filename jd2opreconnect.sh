@@ -78,7 +78,6 @@ pass_service_status_to_var SERVICE_STATUS
 NEXT_SERVER_INDEX=0
 
 if parse_is_service_active "${SERVICE_STATUS}"; then
-    # echo "ERROR: openpyn service is active, please stop and disable the service."
     info "openpyn service is already running..."
 
     LAST_SERVER=$(printf '%s' "${SERVICE_STATUS}" | sed -E -n "s/^ExecStart=.*--server ([a-zA-Z0-9]+).*$/\1/p")
