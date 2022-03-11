@@ -38,7 +38,7 @@ function pass_service_status_to_var {
 }
 
 function parse_is_service_active {
-    SERVICE_ACTIVE_STATE=$(printf '%s' "${SERVICE_STATUS}" | sed -E -n "s/^ActiveState=(.+)$/\1/p")
+    SERVICE_ACTIVE_STATE=$(printf '%s' "${1}" | sed -E -n "s/^ActiveState=(.+)$/\1/p")
     [[ "$SERVICE_ACTIVE_STATE" == "active" ]] && return
     false
 }
