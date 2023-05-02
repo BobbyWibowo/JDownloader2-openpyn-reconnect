@@ -18,7 +18,7 @@ Unless you want to run JDownloader2 as root (not recommended), `jd2opreconnect.s
 %sudo ALL=(root) NOPASSWD:/path/to/jd2opreconnect.sh
 ```
 
-Why? `opendyn` itself requires root/sudo access.
+Why? `openpyn` itself requires root/sudo access.
 
 When adding a script into sudoers file, you still need to run said script with sudo afterwards. It will just then run without prompting for auth (thus `run-logged.sh` and `run-silent.sh` explicitly use sudo inside).
 
@@ -44,6 +44,6 @@ Settings > Advanced Settings > Search for **Reconnect: Seconds Before First IP C
 
 Settings > Plugins > `mega.co.nz` > **Set preferred limit mode** > Pick **Global: Wait or get new IP** (its default value will not trigger JDownloader2's Auto-Reconnect feature).
 
-Settings > Plugins > `mega.co.nz` > **Max. wait time on limit reached** > Set `25` (the plugin doesn't let you go any lower).
+Settings > Plugins > `mega.co.nz` > **Max. wait time on limit reached** > Set `10` (it should be fine to set this even lower if the plugin ever allows you to in future updates).
 
 You may have to find similar options as the above in other file hosts' plugins.
